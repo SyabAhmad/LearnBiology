@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="408dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="4dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,16 +40,157 @@
     </LinearLayout>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_width="427dp"
+        android:layout_height="720dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="-16dp">
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/img_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/green_1"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Introduction To Biology"
+                    android:textColor="@color/white"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Solving a Biological Problem"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Biodiversity"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Cells and Tissues"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Cell Cycle"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Enzymes"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Bio-Energetics"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Nutrition"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:drawableRight="@drawable/ic_baseline_menu_book_24"
+                    android:paddingStart="30dp"
+                    android:text="Transport"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
     </ScrollView>
 
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="87dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:text="ad Here"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
